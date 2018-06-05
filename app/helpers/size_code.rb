@@ -42,7 +42,7 @@ module SizeCode
     result=size
     ob = usszie.split(' ')
     asize = asize.nil?? " " : asize
-    asize_arry = asize.tr("\n\r","|").split('|') 
+    asize_arry = asize.tr("\n","|").split('|') 
     if !usszie.empty? 
       if( ob[n].upcase =~ /[A-Z]$/ )
        
