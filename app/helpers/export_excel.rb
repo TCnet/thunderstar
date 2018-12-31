@@ -336,8 +336,8 @@ module ExportExcel
               num = n*csize.length+m+1
               sn = (num-1)*1
 
-              sheet1[num+1+c_cloum,t_num] = key_array[sn].join(',')[0,250]
-              
+             # sheet1[num+1+c_cloum,t_num] = key_array[sn].join(',')[0,250]
+              sheet1[num+1+c_cloum,t_num] = key_array[sn].join(',')
               
             end
           end
